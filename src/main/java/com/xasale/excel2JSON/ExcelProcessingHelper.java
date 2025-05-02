@@ -19,7 +19,7 @@ public class ExcelProcessingHelper {
             // int sheetIndex = workbook.getActiveSheetIndex();
 
             //get sheet
-            XSSFSheet sheet = workbook.getSheetAt(1);
+            XSSFSheet sheet = workbook.getSheetAt(0);
 
             System.out.println("Το current active sheet number είναι: " + sheet);
 
